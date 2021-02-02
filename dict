@@ -1,0 +1,19 @@
+#how to count elements in dictionary
+
+char = {}
+for c in s:
+    char[c] = char[c] + 1 if c in char else 1
+
+#useful modules
+collections
+
+#fundamental operation
+dict = {'a': 1, 'b': 2, 'd': 3,'c':2}
+print('before:',dict['a'])
+dict['a'] = 2 #可以直接更改value
+print('after:', dict['a'])
+
+
+print(dict.get('b')) #取任一個key的value
+print(dict.keys()) #取所有keys
+print(dict.values('a')) #取所有values
